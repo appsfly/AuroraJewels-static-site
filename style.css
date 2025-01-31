@@ -7,7 +7,15 @@ body {
     width: 100%;
     height: 3.4vh;
 
+    color: white;
     background-color: #12274F;
+    
+    font-size: 13px;
+    font-family: "Inter","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-wrapper {
@@ -517,6 +525,103 @@ body {
     padding-bottom: 10px;
 }
 
+.ancor-silver{
+    width: 100%;
+    height: 100vh;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+.silver{
+    width: 1150px;
+    height: 90vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.silver1{
+    width: 600px;
+    height: 85vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}   
+.earrings2{
+    width: 550px;
+    height: 21vh;
+    /* border: 1px solid red; */
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(18, 18, 87);
+
+}
+
+.rings2{
+    width: 550px;
+    height: 53vh;
+     /* border: 1px solid red; */
+     background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(18, 18, 87);
+
+}
+.silver2{
+    width: 600px;
+    height: 85vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}   
+.necklaces2{
+    width: 550px;
+    height: 53vh;
+     /* border: 1px solid red; */
+     background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(18, 18, 87);
+
+}
+.bracelets2{
+    width: 550px;
+    height: 21vh;
+     /* border: 1px solid red; */
+     background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(18, 18, 87);
+}
+
+.explore-now a{
+    font-size: 15px;
+    color: rgb(18, 18, 87);
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
 .browse-popular-jewelry-styles {
     width: 100%;
     height: 15vh;
@@ -530,4 +635,99 @@ body {
     font-family: "Cormorant Garamond", "Times New Roman", Times, serif;
 
     padding-bottom: 10px;
+}
+
+.craftsmanship-container {
+    width: 100%;
+    height: 40vh;
+   
+    background-color: aliceblue;
+    gap: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.craft-content {
+    width: 30vw;
+    height: 35vh;
+
+    border: 1px solid black;
+}
+
+.craft-img {
+    width: 30vw;
+    height: 35vh;
+
+    border: 1px solid black;
+}
+
+.craft-title { 
+    width: inherit;
+    height: 17vh;
+
+    border: 1px solid black;
+}
+
+.craft-text {
+    width: inherit;
+    height: 12vh;
+
+    border: 1px solid black;
+}
+
+.blue {
+    background: #12274F;
+    color: white;
+}
+
+
+/* catagory card */
+
+.ancor-ctr{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 400px;
+    width: 1500px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.category-card{
+    height: 300px;
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.imagebox{
+    height: 240px;
+    width: 240px;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+
+.writebox1{
+    height: 30px;
+    width: 200px;
+    border: 1px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
